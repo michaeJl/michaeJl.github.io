@@ -1,0 +1,234 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    position: relative;
+}
+
+nav {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background: #212121;
+    min-height: 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style: none;
+}
+
+.menu .menu_link {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+.menu .menu_item {
+    border-right: 2px dotted white;
+    padding-right: 28px;
+}
+
+.subheader {
+    position: absolute;
+    top: 50px;
+    height: 84px;
+    background-color: rgba(0,0,0, .6);
+    width: 100%;
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_text {
+    margin-top: 6px;
+    opacity: 0.5;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.subheader .call {
+    margin-top: 19px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 12px;
+    align-items: center;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    border: none;
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.promo {
+    min-height: 800px;
+    background: url(../img/section1/bg1.jpg) center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 60px;
+    margin: 0;
+}
+
+.promo .promo_subheader {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+}
+
+.promo .promo_descr {
+    margin-top: 23px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    border: none;
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;   
+    color: #FFFFFF;
+}
+
+.reasons {
+    min-height: 900px;
+    padding: 65px 43px 65px 33px;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    width: 115px;
+    height: 27px;
+    background: #000000;
+
+
+    font-style: normal;
+    font-weight: 200;
+    font-size: 11px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.label {
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 48px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.reasons .reason_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 116px;
+    height: 116px;
+    border-radius:100%;
+    background: #1EACC7;
+}
+
+.reasons .reason_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 142px;
+}
+
+.reasons h3 {
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    align-items: center;
+    color: #1EACC7;
+}
+
+.reasons .wrapper {
+    width: 370px;
+}
+
+.reasons .reason_descr {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    align-items: center;
+    text-align: left;
+    color: #202020;
+}
